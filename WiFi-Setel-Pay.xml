@@ -17,16 +17,21 @@
 				<authentication>WPA2</authentication>
 				<encryption>AES</encryption>
 				<useOneX>true</useOneX>
-				<FIPSMode xmlns="http://www.microsoft.com/networking/WLAN/profile/v2">false</FIPSMode>
 			</authEncryption>
-			<PMKCacheMode>enabled</PMKCacheMode>
-			<PMKCacheTTL>720</PMKCacheTTL>
-			<PMKCacheSize>128</PMKCacheSize>
-			<preAuthMode>disabled</preAuthMode>
 			<OneX xmlns="http://www.microsoft.com/networking/OneX/v1">
-				<cacheUserData>true</cacheUserData>
 				<authMode>user</authMode>
-				<EAPConfig><EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig"><EapMethod><Type xmlns="http://www.microsoft.com/provisioning/EapCommon">21</Type><VendorId xmlns="http://www.microsoft.com/provisioning/EapCommon">0</VendorId><VendorType xmlns="http://www.microsoft.com/provisioning/EapCommon">0</VendorType><AuthorId xmlns="http://www.microsoft.com/provisioning/EapCommon">311</AuthorId></EapMethod><Config xmlns="http://www.microsoft.com/provisioning/EapHostConfig"><EapTtls xmlns="http://www.microsoft.com/provisioning/EapTtlsConnectionPropertiesV1"><ServerValidation><ServerNames></ServerNames><TrustedRootCAHash>98 ff 5e c9 18 90 bf a0 e5 78 fb e3 c0 32 89 95 7d 66 32 92</TrustedRootCAHash><DisablePrompt>false</DisablePrompt></ServerValidation><Phase2Authentication><MSCHAPv2Authentication><UseWinlogonCredentials>false</UseWinlogonCredentials></MSCHAPv2Authentication></Phase2Authentication><Phase1Identity><IdentityPrivacy>true</IdentityPrivacy><AnonymousIdentity></AnonymousIdentity></Phase1Identity></EapTtls></Config></EapHostConfig></EAPConfig>
+				<EAPConfig><EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig"><EapMet
+hod><Type xmlns="http://www.microsoft.com/provisioning/EapCommon">21</Type><VendorId xmlns="http:
+//www.microsoft.com/provisioning/EapCommon">0</VendorId><VendorType xmlns="http://www.microsoft.c
+om/provisioning/EapCommon">0</VendorType><AuthorId xmlns="http://www.microsoft.com/provisioning/E
+apCommon">311</AuthorId></EapMethod><Config xmlns="http://www.microsoft.com/provisioning/EapHostC
+onfig"><EapTtls xmlns="http://www.microsoft.com/provisioning/EapTtlsConnectionPropertiesV1"><Serv
+erValidation><ServerNames></ServerNames><TrustedRootCAHash>e8 4e 5f b1 56 8d 95 fd 48 1f ea 1e 6a
+ 53 40 5a e2 62 0 94 f1 82 a0 ae 85 1a 9f 3c 25 3f 31 f</TrustedRootCAHash><DisablePrompt>false</
+DisablePrompt></ServerValidation><Phase2Authentication><MSCHAPv2Authentication><UseWinlogonCreden
+tials>false</UseWinlogonCredentials></MSCHAPv2Authentication></Phase2Authentication><Phase1Identi
+ty><IdentityPrivacy>true</IdentityPrivacy><AnonymousIdentity>anonymous</AnonymousIdentity></Phase
+1Identity></EapTtls></Config></EapHostConfig></EAPConfig>
 			</OneX>
 		</security>
 	</MSM>
